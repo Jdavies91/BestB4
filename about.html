@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Best B4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  
+    <link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  
+    <!-- CSS -->  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">	
+    <link rel="stylesheet" href="styles/easter.css">
+    
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/easter.js"></script>
+
+</head>
+
+<!-- body -->
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="https://www.bestb4.ca">
+                    <img class="img-responsive" src="images/best_b4_white.png" alt="navBar logo" id="navBar-logo">
+                  
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">Menu
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navBar" tabindex="-1" aria-hidden="true">
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="about.html" data-toggle="collapse" data-target=".navbar-collapse">About us</a></li>
+                    <li><a href="index.html#abouttext" data-toggle="collapse" data-target=".navbar-collapse">About Our App</a></li>
+                    <li><a href="index.html#app" data-toggle="collapse" data-target=".navbar-collapse">App Features</a></li>
+                    <li><a href="index.html#recipe" data-toggle="collapse" data-target=".navbar-collapse">Recipes</a></li>
+                    <li><a href="index.html#contact" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+	<!-- header -->
+	<header id="office">
+		
+	</header>
+    <!-- Jons about -->
+	<section  id="jon">
+		<div class="container black">
+			<div class="col-lg-12 text-center">
+				<h1 class="black">Jonathan Davies</h1>
+				<hr>
+                <img class="portrait" src="images/Placeholder.png" alt ="Placeholder" value="false" id="jons" onclick="jonS(this)">
+				<p class = "blackt">
+                    Job: Project Manager and Back-end Developer </p>
+                <p class = "blackt">
+                    Code Name: Overlord
+                </p>
+            </div>
+        </div>
+	</section>
+
+	<!-- Erwin About -->
+	<section id="erwin">
+		<div class="container">
+			<div class="col-lg-12 text-center">
+				<h1>Erwin Berceles</h1>
+				<hr>
+                <img class="portrait" src="images/Erwin.png" alt ="Erwin" value="false" id="erwins" onclick="erwinS(this)">
+				<p class="white">
+                    Job: Graphic Designer, UI Designer, Presenter 
+                </p>
+                <p class="white">
+                    Code Name: Lorax                    
+				</p>
+			</div>	
+		</div>
+	</section>
+
+    <!-- Sonics About -->
+	<section id="sonic">
+		<div class="container">
+			<div class="col-lg-12 text-center">
+				<h1 class="black">Sonic Keung</h1>
+				<hr>
+            <img class="portrait" src="images/sonic.png" alt ="sonic" value="false" id="sonics" onclick="sonicS(this)">		
+				<p class = "blackt">
+                    Job: Assistant Programmer and Graphic Designer 
+                </p>
+                <p class = "blackt">
+                    Code Name: Sonic
+				</p> 
+        </div>
+	</section>
+
+    <!-- Hank's About -->
+    <section id="hank">
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h1>Hank Chang</h1>
+                <hr>
+                <img class="portraitw" src="images/Hank.png" alt ="Hank"value="false" id="hanks" onclick="hankS(this)">
+                <p class="white">
+                    Job: Lead Programmer, Full-Stack
+                </p>
+                <p class="white">
+                    Code Name: Hank    
+                </p>
+            </div>   
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="images/Tomb.png" class="tomb">
+        </div>
+    </div>
+</body>
+</html>
+   

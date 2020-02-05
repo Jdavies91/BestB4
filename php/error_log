@@ -1,0 +1,762 @@
+[23-May-2018 13:58:04 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 13:58:04 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 13:58:15 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 13:58:15 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 13:58:50 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 13:58:50 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 13:59:02 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 13:59:02 America/New_York] PHP Fatal error:  Uncaught Error: Class 'Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 13:59:34 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 13:59:34 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 13:59:34 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 14:00:17 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 14:00:18 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 14:00:18 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:05:18 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:05:18 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:06:12 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:06:13 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:06:23 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:06:55 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:06:55 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:09:13 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:09:13 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:09:13 America/New_York] PHP Fatal error:  require(): Failed opening required '/php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:10:16 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:10:16 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:10:16 America/New_York] PHP Fatal error:  require(): Failed opening required '/php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:10:59 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:10:59 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:10:59 America/New_York] PHP Fatal error:  require(): Failed opening required '/php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:13:18 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:13:18 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:13:18 America/New_York] PHP Fatal error:  require(): Failed opening required '/php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:13:46 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:13:46 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:13:46 America/New_York] PHP Fatal error:  require(): Failed opening required '/php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:14:34 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:14:34 America/New_York] PHP Warning:  require(/php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:14:34 America/New_York] PHP Fatal error:  require(): Failed opening required '/php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:15:11 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:15:11 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:15:42 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:15:42 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:16:12 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:16:12 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:18:01 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:18:01 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:19:07 America/New_York] PHP Warning:  require(php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:19:07 America/New_York] PHP Warning:  require(php/autoload.php): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:19:07 America/New_York] PHP Fatal error:  require(): Failed opening required 'php/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/bestbca/public_html/php/twitterindex.php on line 14
+[23-May-2018 15:19:30 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:19:30 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 15:19:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/bestbca/public_html/php/twitterindex.php on line 27
+[23-May-2018 15:19:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/bestbca/public_html/php/twitterindex.php on line 29
+[23-May-2018 15:21:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/bestbca/public_html/php/twitterindex.php on line 27
+[23-May-2018 15:21:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/bestbca/public_html/php/twitterindex.php on line 29
+[23-May-2018 15:21:34 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:21:34 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:21:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/bestbca/public_html/php/twitterindex.php on line 27
+[23-May-2018 15:21:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/bestbca/public_html/php/twitterindex.php on line 29
+[23-May-2018 15:22:08 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:22:08 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in /home/bestbca/public_html/php/src/TwitterOAuth.php:168
+Stack trace:
+#0 /home/bestbca/public_html/php/twitterindex.php(34): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 168
+[23-May-2018 15:22:53 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:22:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'php\Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 15:26:52 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:26:52 America/New_York] PHP Fatal error:  Uncaught Error: Class 'php\Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 15:32:03 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:32:03 America/New_York] PHP Fatal error:  Uncaught Error: Class 'php\Abraham\TwitterOAuth\TwitterOAuth' not found in /home/bestbca/public_html/php/twitterindex.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 33
+[23-May-2018 15:33:53 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:33:53 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:33:53 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:33:56 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 15:33:56 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 15:33:57 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:33:57 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:33:57 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:34:06 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:34:07 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104047.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:34:07 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpCKniZ5' to '/uploads/1527104047.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:34:07 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:34:07 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104047.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:34:07 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpCKniZ5' to '/uploads/1527104047.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:34:07 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(108): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 15:34:15 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:34:15 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:34:15 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:34:25 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:34:25 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104065.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:34:25 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKsGcKp' to '/uploads/1527104065.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:34:26 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:34:26 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104065.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:34:26 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKsGcKp' to '/uploads/1527104065.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:34:26 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(108): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 15:34:30 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:34:30 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:34:30 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:36:29 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:36:29 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:36:29 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:36:46 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:36:46 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:36:46 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:37:00 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:37:00 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:37:00 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:37:19 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:37:19 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:37:19 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:37:24 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:37:24 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:37:24 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:37:37 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:37:37 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:37:37 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:37:42 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:37:42 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:37:42 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:38:08 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:38:08 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:38:08 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:38:14 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:38:14 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 150
+[23-May-2018 15:38:14 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 152
+[23-May-2018 15:39:26 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:39:26 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 15:39:33 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:39:33 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104373.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:39:33 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php4FjBq3' to '/uploads/1527104373.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:39:33 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:39:33 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104373.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:39:33 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php4FjBq3' to '/uploads/1527104373.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:39:33 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(108): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 15:40:17 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:40:34 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:41:00 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:41:07 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:41:17 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:41:20 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 15:41:20 America/New_York] PHP Warning:  move_uploaded_file(/uploads/Resource id #17.jpg): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 70
+[23-May-2018 15:41:20 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpy9OZfI' to '/uploads/Resource id #17.jpg' in /home/bestbca/public_html/php/twitterindex.php on line 70
+[23-May-2018 15:41:20 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 15:41:20 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(77): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 15:45:49 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:45:59 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:46:00 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104760.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:46:00 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprfWsXc' to '/uploads/1527104760.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 101
+[23-May-2018 15:46:00 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:46:00 America/New_York] PHP Warning:  move_uploaded_file(/uploads/1527104760.PNG): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:46:00 America/New_York] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phprfWsXc' to '/uploads/1527104760.PNG' in /home/bestbca/public_html/php/twitterindex.php on line 106
+[23-May-2018 15:46:00 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(108): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 15:46:56 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:47:14 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:47:14 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpAvjvTv): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 103
+[23-May-2018 15:47:14 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 21
+[23-May-2018 15:47:14 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:47:16 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 110
+[23-May-2018 15:48:23 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:48:24 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpUyDALN): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 103
+[23-May-2018 15:48:24 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 21
+[23-May-2018 15:48:24 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:48:29 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: Operation timed out after 5000 milliseconds with 0 bytes received in /home/bestbca/public_html/php/src/TwitterOAuth.php:505
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(422): Abraham\TwitterOAuth\TwitterOAuth->request('https://upload....', 'POST', 'Authorization: ...', Array)
+#1 /home/bestbca/public_html/php/src/TwitterOAuth.php(374): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://upload....', 'POST', Array)
+#2 /home/bestbca/public_html/php/src/TwitterOAuth.php(356): Abraham\TwitterOAuth\TwitterOAuth->makeRequests('https://upload....', 'POST', Array)
+#3 /home/bestbca/public_html/php/src/TwitterOAuth.php(284): Abraham\TwitterOAuth\TwitterOAuth->http('POST', 'https://upload....', 'media/upload', Array)
+#4 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#5 /home/bestbca/public_html/php/twitterindex.php(108): Abraham\TwitterOAuth\TwitterOAuth in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 505
+[23-May-2018 15:48:38 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:48:40 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpx2D0dm): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 103
+[23-May-2018 15:48:40 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 21
+[23-May-2018 15:48:40 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 105
+[23-May-2018 15:48:42 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 110
+[23-May-2018 15:48:43 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:48:52 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:49:01 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:49:04 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 15:49:04 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 15:49:09 America/New_York] PHP Warning:  unlink(../uploads/1527104942.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 15:49:32 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:49:32 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 15:49:47 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:49:56 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 15:49:59 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 15:50:00 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 15:50:03 America/New_York] PHP Warning:  unlink(../uploads/1527104996.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 15:54:06 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:09:36 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:27:18 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:28:12 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:32:27 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:32:34 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:32:37 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 16:32:37 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 16:32:41 America/New_York] PHP Warning:  unlink(../uploads/1527107554.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 16:33:22 America/New_York] PHP Notice:  Undefined index: oauth_token in /home/bestbca/public_html/php/callback.php on line 5
+[23-May-2018 16:33:22 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:33:22 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 16:33:22 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 16:33:25 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 16:33:25 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 16:33:25 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:33:25 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 16:33:25 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 16:33:40 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:33:56 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:42:34 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:42:34 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 16:42:34 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 16:51:00 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:52:03 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:59:57 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 16:59:58 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 16:59:58 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 17:00:00 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 17:00:00 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 17:00:00 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 17:00:00 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 17:00:00 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 17:21:05 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 17:31:38 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 17:31:41 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 17:31:41 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 17:31:45 America/New_York] PHP Warning:  unlink(../uploads/1527111099.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 17:31:45 America/New_York] PHP Warning:  getimagesize(../uploads/1527111099.jpg): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 173
+[23-May-2018 17:33:06 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 17:33:09 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 17:33:09 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 17:33:13 America/New_York] PHP Warning:  unlink(../uploads/1527111186.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 17:33:13 America/New_York] PHP Warning:  getimagesize(../uploads/1527111186.jpg): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 178
+[23-May-2018 17:34:22 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 17:34:25 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 17:34:26 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 17:34:31 America/New_York] PHP Warning:  unlink(../uploads/1527111263.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 17:34:31 America/New_York] PHP Warning:  getimagesize(/tmp/phpZyIHNB): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 178
+[23-May-2018 17:35:35 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 17:35:37 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 17:35:37 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 17:35:41 America/New_York] PHP Warning:  unlink(../uploads/1527111335.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 19:31:41 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 19:31:41 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 19:31:41 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 19:31:52 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 19:31:55 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 70
+[23-May-2018 19:31:56 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 73
+[23-May-2018 19:32:00 America/New_York] PHP Warning:  unlink(../uploads/1527118312.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 80
+[23-May-2018 19:39:57 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 28
+[23-May-2018 19:40:01 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 70
+[23-May-2018 19:40:01 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 73
+[23-May-2018 19:40:01 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7448600 bytes) in /home/bestbca/public_html/php/src/Util.php on line 21
+[23-May-2018 19:41:00 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 28
+[23-May-2018 19:41:03 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 70
+[23-May-2018 19:41:03 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 73
+[23-May-2018 19:41:04 America/New_York] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 7448600 bytes) in /home/bestbca/public_html/php/src/Util.php on line 21
+[23-May-2018 19:46:24 America/New_York] PHP Notice:  Undefined variable: imageProcess in /home/bestbca/public_html/php/twitterindex.php on line 160
+[23-May-2018 19:47:26 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/bestbca/public_html/php/twitterindex.php on line 179
+[23-May-2018 19:50:07 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 19:54:05 America/New_York] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/bestbca/public_html/php/twitterindex.php on line 111
+[23-May-2018 19:54:29 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 19:54:36 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 19:54:38 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:54:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:55:36 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 19:55:37 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:55:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:57:32 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 19:57:33 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:57:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:59:33 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 19:59:34 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 19:59:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:01:02 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 20:01:09 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 20:01:10 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:01:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:01:27 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 20:01:28 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:01:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:03:36 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 41
+[23-May-2018 20:03:37 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:03:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 95
+[23-May-2018 20:07:39 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:07:41 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:07:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:09:14 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:09:15 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:09:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:10:14 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:10:15 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:10:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:10:54 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:10:59 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:10:59 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:10:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:11:39 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:11:39 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:11:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:12:02 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:12:07 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:12:08 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:12:08 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:12:36 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:12:43 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:12:44 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:12:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:13:21 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:13:21 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:13:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:13:24 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:13:24 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:13:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:98
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 98
+[23-May-2018 20:18:10 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:18:11 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:18:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:30:30 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:30:38 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:30:39 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:30:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:33:21 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:33:28 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 81
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 82
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 83
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 86
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 89
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 90
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 91
+[23-May-2018 20:33:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bestbca/public_html/php/twitterindex.php:79) in /home/bestbca/public_html/php/twitterindex.php on line 92
+[23-May-2018 20:33:31 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:33:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:34:44 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:34:53 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 44
+[23-May-2018 20:34:54 America/New_York] PHP Notice:  Undefined variable: connection in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:34:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function upload() on null in /home/bestbca/public_html/php/twitterindex.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/twitterindex.php on line 99
+[23-May-2018 20:39:05 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:39:13 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:39:15 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:39:15 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:39:20 America/New_York] PHP Warning:  unlink(../uploads/1527122353.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:42:45 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:42:48 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:42:49 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:42:53 America/New_York] PHP Warning:  unlink(../uploads/1527122566.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:46:22 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:47:33 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:47:33 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:47:33 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:47:39 America/New_York] PHP Notice:  Undefined index: oauth_token in /home/bestbca/public_html/php/callback.php on line 5
+[23-May-2018 20:47:40 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:47:40 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:47:40 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:47:43 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 20:47:43 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[23-May-2018 20:47:44 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:47:44 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:47:44 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:48:16 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:48:17 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 20:48:17 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:48:17 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:49:03 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:49:03 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 20:49:03 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:49:03 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:52:59 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:53:02 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:53:02 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:53:06 America/New_York] PHP Warning:  unlink(../uploads/1527123179.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:53:22 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:53:25 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:53:25 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:53:29 America/New_York] PHP Warning:  unlink(../uploads/1527123202.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:54:10 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:54:13 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:54:14 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:54:17 America/New_York] PHP Warning:  unlink(../uploads/1527123250.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:55:13 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:55:15 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:55:15 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:55:19 America/New_York] PHP Warning:  unlink(../uploads/1527123313.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:55:26 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:55:51 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:55:54 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:55:54 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:55:58 America/New_York] PHP Warning:  unlink(../uploads/1527123352.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:57:12 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:57:16 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 69
+[23-May-2018 20:57:16 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 72
+[23-May-2018 20:57:20 America/New_York] PHP Warning:  unlink(../uploads/1527123433.jpg): No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 79
+[23-May-2018 20:58:04 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:58:04 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 20:58:04 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:58:04 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:58:17 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:58:17 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 20:58:17 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:58:17 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:59:26 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:59:26 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:59:26 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:59:41 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:59:41 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:59:41 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 20:59:45 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 20:59:45 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 20:59:45 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 21:00:02 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:00:03 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 21:00:03 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 146
+[23-May-2018 21:00:03 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 148
+[23-May-2018 21:02:16 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:02:16 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[23-May-2018 21:02:16 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 145
+[23-May-2018 21:02:16 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 147
+[23-May-2018 21:03:13 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:03:13 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 68
+[23-May-2018 21:03:13 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 71
+[23-May-2018 21:03:13 America/New_York] PHP Notice:  Undefined variable: imageLayer in /home/bestbca/public_html/php/twitterindex.php on line 76
+[23-May-2018 21:03:13 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(76): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 21:03:40 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:03:48 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:03:48 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 68
+[23-May-2018 21:03:49 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 71
+[23-May-2018 21:03:49 America/New_York] PHP Notice:  Undefined variable: imageLayer in /home/bestbca/public_html/php/twitterindex.php on line 76
+[23-May-2018 21:03:49 America/New_York] PHP Fatal error:  Uncaught InvalidArgumentException: You must supply a readable file in /home/bestbca/public_html/php/src/TwitterOAuth.php:281
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#1 /home/bestbca/public_html/php/twitterindex.php(76): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#2 {main}
+  thrown in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 281
+[23-May-2018 21:04:13 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:04:17 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:04:17 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 68
+[23-May-2018 21:04:17 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 71
+[23-May-2018 21:08:43 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[23-May-2018 21:08:46 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 11:37:57 America/New_York] PHP Notice:  Undefined index: rowList in /home/bestbca/public_html/php/savedata.php on line 5
+[24-May-2018 11:37:57 America/New_York] PHP Notice:  Undefined index: OldItemList in /home/bestbca/public_html/php/savedata.php on line 6
+[24-May-2018 11:38:29 America/New_York] PHP Notice:  Undefined index: rowList in /home/bestbca/public_html/php/savedata.php on line 5
+[24-May-2018 11:38:29 America/New_York] PHP Notice:  Undefined index: OldItemList in /home/bestbca/public_html/php/savedata.php on line 6
+[24-May-2018 11:46:55 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 11:46:55 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 11:46:56 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 11:47:23 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 11:47:23 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 60
+[24-May-2018 11:48:01 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 11:48:01 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 68
+[24-May-2018 11:48:01 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 71
+[24-May-2018 12:04:49 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 12:04:49 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 12:04:51 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 12:06:47 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 12:06:47 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpuL3Nrv): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 102
+[24-May-2018 12:06:47 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 21
+[24-May-2018 12:06:47 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 104
+[24-May-2018 12:06:48 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 109
+[24-May-2018 12:20:17 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 30
+[24-May-2018 12:20:17 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 68
+[24-May-2018 12:20:18 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 71
+[24-May-2018 13:05:56 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:05:58 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 162
+[24-May-2018 13:05:58 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 164
+[24-May-2018 13:06:09 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:06:09 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:06:10 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:06:10 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 162
+[24-May-2018 13:06:10 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 164
+[24-May-2018 13:06:29 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:06:29 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:06:30 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:06:34 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:06:36 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 77
+[24-May-2018 13:07:21 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:21 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpFaT5Qo): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 119
+[24-May-2018 13:07:21 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 38
+[24-May-2018 13:07:21 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 121
+[24-May-2018 13:07:22 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:22 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 162
+[24-May-2018 13:07:22 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 164
+[24-May-2018 13:07:26 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: Resolving timed out after 5001 milliseconds in /home/bestbca/public_html/php/src/TwitterOAuth.php:505
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(422): Abraham\TwitterOAuth\TwitterOAuth->request('https://upload....', 'POST', 'Authorization: ...', Array)
+#1 /home/bestbca/public_html/php/src/TwitterOAuth.php(374): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://upload....', 'POST', Array)
+#2 /home/bestbca/public_html/php/src/TwitterOAuth.php(356): Abraham\TwitterOAuth\TwitterOAuth->makeRequests('https://upload....', 'POST', Array)
+#3 /home/bestbca/public_html/php/src/TwitterOAuth.php(284): Abraham\TwitterOAuth\TwitterOAuth->http('POST', 'https://upload....', 'media/upload', Array)
+#4 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#5 /home/bestbca/public_html/php/twitterindex.php(124): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 505
+[24-May-2018 13:07:26 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:26 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpPLOcei): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 119
+[24-May-2018 13:07:26 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 38
+[24-May-2018 13:07:26 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 121
+[24-May-2018 13:07:32 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: Resolving timed out after 5000 milliseconds in /home/bestbca/public_html/php/src/TwitterOAuth.php:505
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(422): Abraham\TwitterOAuth\TwitterOAuth->request('https://upload....', 'POST', 'Authorization: ...', Array)
+#1 /home/bestbca/public_html/php/src/TwitterOAuth.php(374): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://upload....', 'POST', Array)
+#2 /home/bestbca/public_html/php/src/TwitterOAuth.php(356): Abraham\TwitterOAuth\TwitterOAuth->makeRequests('https://upload....', 'POST', Array)
+#3 /home/bestbca/public_html/php/src/TwitterOAuth.php(284): Abraham\TwitterOAuth\TwitterOAuth->http('POST', 'https://upload....', 'media/upload', Array)
+#4 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#5 /home/bestbca/public_html/php/twitterindex.php(124): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 505
+[24-May-2018 13:07:32 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:32 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpyTAuay): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 119
+[24-May-2018 13:07:32 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 38
+[24-May-2018 13:07:32 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 121
+[24-May-2018 13:07:37 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 126
+[24-May-2018 13:07:37 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:37 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpaZOFa9): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 119
+[24-May-2018 13:07:37 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 38
+[24-May-2018 13:07:37 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 121
+[24-May-2018 13:07:39 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 126
+[24-May-2018 13:07:40 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:07:40 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:07:40 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:40 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpnzWt5G): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 119
+[24-May-2018 13:07:40 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 38
+[24-May-2018 13:07:40 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 121
+[24-May-2018 13:07:41 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:43 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 126
+[24-May-2018 13:07:43 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:07:43 America/New_York] PHP Warning:  imagecreatefrompng(/tmp/phpANYGrH): failed to open stream: No such file or directory in /home/bestbca/public_html/php/twitterindex.php on line 119
+[24-May-2018 13:07:43 America/New_York] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in /home/bestbca/public_html/php/twitterindex.php on line 38
+[24-May-2018 13:07:43 America/New_York] PHP Warning:  imagepng() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 121
+[24-May-2018 13:07:45 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 126
+[24-May-2018 13:08:02 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:08:02 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 162
+[24-May-2018 13:08:02 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 164
+[24-May-2018 13:08:13 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:08:13 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 85
+[24-May-2018 13:08:13 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 88
+[24-May-2018 13:08:19 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:08:19 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 162
+[24-May-2018 13:08:19 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 164
+[24-May-2018 13:09:27 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:25:25 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:25:25 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[24-May-2018 13:25:25 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:26:42 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:26:44 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 85
+[24-May-2018 13:26:44 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 88
+[24-May-2018 13:26:49 America/New_York] PHP Fatal error:  Uncaught Abraham\TwitterOAuth\TwitterOAuthException: Operation timed out after 5000 milliseconds with 0 bytes received in /home/bestbca/public_html/php/src/TwitterOAuth.php:505
+Stack trace:
+#0 /home/bestbca/public_html/php/src/TwitterOAuth.php(422): Abraham\TwitterOAuth\TwitterOAuth->request('https://upload....', 'POST', 'Authorization: ...', Array)
+#1 /home/bestbca/public_html/php/src/TwitterOAuth.php(374): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://upload....', 'POST', Array)
+#2 /home/bestbca/public_html/php/src/TwitterOAuth.php(356): Abraham\TwitterOAuth\TwitterOAuth->makeRequests('https://upload....', 'POST', Array)
+#3 /home/bestbca/public_html/php/src/TwitterOAuth.php(284): Abraham\TwitterOAuth\TwitterOAuth->http('POST', 'https://upload....', 'media/upload', Array)
+#4 /home/bestbca/public_html/php/src/TwitterOAuth.php(265): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#5 /home/bestbca/public_html/php/twitterindex.php(93): Abraham\TwitterOAuth\TwitterOAuth- in /home/bestbca/public_html/php/src/TwitterOAuth.php on line 505
+[24-May-2018 13:27:08 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:27:23 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:27:27 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 85
+[24-May-2018 13:27:27 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 88
+[24-May-2018 13:27:53 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:27:53 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 85
+[24-May-2018 13:27:53 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 88
+[24-May-2018 13:37:03 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 47
+[24-May-2018 13:37:06 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 162
+[24-May-2018 13:37:06 America/New_York] PHP Notice:  Undefined index: Messtxtbox in /home/bestbca/public_html/php/twitterindex.php on line 164
+[25-May-2018 05:44:16 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 05:44:16 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 05:44:19 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 05:44:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 05:45:17 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 05:45:17 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 05:45:41 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 05:45:41 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 05:47:53 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 05:47:53 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 05:50:58 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 05:50:58 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 06:06:40 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 06:06:40 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 06:07:36 America/New_York] PHP Notice:  Use of undefined constant useAbrahamTwitterOAuthTwitterOAuth - assumed 'useAbrahamTwitterOAuthTwitterOAuth' in /home/bestbca/public_html/php/callback.php on line 5
+[25-May-2018 06:07:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'TwitterOAuth' not found in /home/bestbca/public_html/php/callback.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/bestbca/public_html/php/callback.php on line 10
+[25-May-2018 06:15:43 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[25-May-2018 06:15:43 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[25-May-2018 06:15:43 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 50
+[25-May-2018 13:17:48 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_KEY - assumed 'CONSUMER_KEY' in /home/bestbca/public_html/php/callback.php on line 9
+[25-May-2018 13:17:48 America/New_York] PHP Notice:  Use of undefined constant CONSUMER_SECRET - assumed 'CONSUMER_SECRET' in /home/bestbca/public_html/php/callback.php on line 9
+[25-May-2018 13:17:49 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 50
+[25-May-2018 13:17:51 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 50
+[25-May-2018 13:17:51 America/New_York] PHP Warning:  getimagesize(): Filename cannot be empty in /home/bestbca/public_html/php/twitterindex.php on line 83
+[25-May-2018 13:18:14 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 50
+[25-May-2018 13:18:56 America/New_York] PHP Notice:  Undefined index: text in /home/bestbca/public_html/php/twitterindex.php on line 50
+[25-May-2018 13:18:56 America/New_York] PHP Warning:  imagejpeg() expects parameter 1 to be resource, string given in /home/bestbca/public_html/php/twitterindex.php on line 92
+[25-May-2018 13:18:56 America/New_York] PHP Notice:  Use of undefined constant message - assumed 'message' in /home/bestbca/public_html/php/twitterindex.php on line 95

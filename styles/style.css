@@ -1,0 +1,560 @@
+/*body*/
+body 
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+}
+
+h1, h2
+{
+    font-family: "Century Gothic";	
+}
+
+p
+{
+    font-family: "Gadugi";
+}
+
+.modal-body
+{
+    overflow: scroll;
+}
+.glyphicon
+{
+    font-size: 25px;
+}
+
+/*navbar*/
+/*feature*/
+.navbar-default, .notificationDropdown{
+    background-color: #5a8c24;
+}
+
+#navBar ul li a, #notification ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+#navBar ul li a:hover, #notification ul li a:hover
+{
+    color: rgb(153, 255, 51);
+}
+
+#navBar-logo
+{
+	float: left;
+	height: 55px;
+}
+
+/* notification*/
+#navBarNotification
+{
+    position: absolute;
+    right: 80px;
+	width: 35px;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+#notification
+{
+	display: inline-block;
+}
+
+.notificationDark
+{
+    opacity: 0.7;
+}
+
+
+/*Erwin*/
+
+#top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#top:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*header about us*/
+#office
+{
+    background-image: url("../images/office.png");
+    height: 700px;
+	width: 100%;
+	line-height: 800px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 800px) {
+    #office
+        {
+        background-image: url("../images/office.png");
+        height: 400px;
+	    width: 100%;
+	    line-height: 800px;
+        background-attachment: fixed;
+        background-size: 120% 50%;
+        background-repeat: no-repeat;
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+    #office
+    {
+        background-image: url("../images/office.png");
+        height: 300px;
+        width: 100%;
+        line-height: 800px;
+        background-attachment: fixed;
+        background-size: 200% 50%;
+        background-repeat: no-repeat;
+    }   
+}
+
+/*Jonathan tab*/
+#jon
+{
+    background-color: #00FF00;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.black
+{
+    color: black;
+   
+}
+
+.portrait
+{
+    height: 400px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.jesh
+{
+   height: 50%;
+    margin-bottom: auto;
+    margin-top: auto;
+    bottom: 0;
+}
+
+.portraitw
+{
+    height: 400px;
+    width: 250px;
+    border: 5px solid white;
+    border-radius: 50px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.blackt
+{
+    color: black;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;	
+    font-size: 26px;
+}
+
+.white{
+    color: white;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;	
+    font-size: 26px;
+}
+
+/* tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+} */
+
+/*Erwin tab*/
+#erwin
+{
+    background-color: #004040;
+}
+
+/*Sonic tab*/
+#sonic
+{
+    background-color: #D0CA9C;
+}
+
+/*Hank tab*/
+#hank
+{
+    background-color: black;
+}
+
+.tabs {
+    margin-left: auto;
+}
+
+.footers
+{
+    font-size: 20px;
+    text-align: center;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer
+{
+    width: 100%;   
+    height: 410px;
+    bottom: 0;
+    
+    background-color: #cecece;
+}
+
+#Ui{
+    background-color: #69c93c;
+}
+
+.title{
+    background-color: #009600;
+    color: white;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.even{
+    background-color: #c8e7c8;
+}
+
+.odd{
+    background-color: #f0fff0;
+}
+
+
+header 
+{
+	background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(29, 15, 7, 0)), url("../images/food3.png");
+	height: 600px;
+	width: 100%;
+	line-height: 600px;
+}
+/*food picture on index*/
+#indexpic
+{
+    height: 70%;
+	width: 75%;
+}
+#index_logo
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+	vertical-align: middle;
+}
+
+
+
+/*section*/
+section
+{
+	padding: 50px;
+}
+
+section h1, h2
+{
+	color: #fff;
+}
+
+section p
+{
+	color: rgb(204, 255, 51);
+	max-width: 400px;
+	margin-left: auto;
+    margin-right: auto;	
+	font-size: 20px;
+}
+
+/*About*/
+#abouttext
+{
+	background-color: rgb(0, 153, 255);
+	min-height: 600px;
+	width: 100%;
+}
+
+#abouttext p
+{
+	max-width: 400px;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*app*/
+#app
+{
+	background-color: rgb(92, 0, 230);
+	min-height: 600px;
+	width: 100%;
+}
+
+#app .image_container
+{
+	background-color: #fff;
+	max-height: 150px;
+	max-width: 150px;
+	position: relative; 
+    overflow: hidden;
+    border-radius: 50%;
+	
+	margin-left: auto;
+    margin-right: auto;
+	
+	
+}
+	
+#app .image_container img
+{
+    height: 100px;
+	width:  100px;
+    margin: 30px;
+
+}
+
+#app h3
+{
+	color: #fff;
+	text-align: center;
+}
+
+#contact {
+    background-color: limegreen;
+}
+
+
+button {
+    color: white;
+}
+
+/*recipe*/
+#recipe
+{
+	background-color: rgb(255, 102, 0);
+	min-height: 600px;
+	width: 100%;
+}
+
+#recipe img
+{
+    max-height: 100%;
+	max-width:  100%;
+}
+
+body.modal-open div.modal-backdrop {
+    z-index: 0;
+}
+
+#leftButton {
+    float: right;
+}
+
+#start {
+    margin-top: 500px;
+    position: absolute;
+    margin-left: -189px;
+}
+
+
+/*App page*/
+/*notification*/
+/*Cooking advice*/
+.recipeLabel
+{
+    color: black;
+}
+
+
+/*Checklist*/
+.pedding
+{
+	padding-top: 70px;
+}
+
+
+/*Add item*/
+.itemSelctionNew
+{
+	margin: 5px;
+	width: 100px;
+	border: 2px solid;
+	border-radius: 5px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.addItemSelected
+{
+	background-color: rgba(255, 51, 51, 0.5);
+}
+
+.itemSelectionCategory{
+	width:20px;
+	display: inline-block;
+}
+
+.itemSelectionName{
+	display: inline-block;
+}
+
+.otherItemGroup .form-group{
+	display: inline-block;
+}
+
+td
+{
+	content: none;
+}
+
+.modal
+{
+	overflow: scroll;
+}
+
+.otherItemNameInput
+{
+	width: 100px;
+}
+
+.itemDetailDaysInput
+{
+	width:50px;
+	display: inline-block;
+}
+
+.itemDetailExpiryDateInput
+{
+	width:140px;
+	display: inline-block;
+}
+
+.enterItemDetailsMemo
+{
+	width: 100%;
+	overflow: hidden;
+}
+
+.enterItemDetailsMemoInput
+{
+	width: 100%;
+}
+
+#enterItemDetailsTable
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	max-width: 100%;
+	text-align:center;
+}
+
+#enterItemDetailsTable th, #enterItemDetailsTable tr, #enterItemDetailsTable td
+{
+	border: 1px solid black;
+}
+
+/*Edit items*/
+.editItemsNameInput
+{
+    width: 50px;
+}
+
+.editItemsExpiryDateInput
+{
+	width:140px;
+}
+
+.editItemsDaysInput
+{
+	width:50px;
+	display: inline-block;
+}
+
+.editItemsMemo
+{
+    width: 100%;
+    min-width: 100px;
+	overflow: hidden;
+}
+
+.editItemsMemoInput
+{
+	width: 100%;
+}
+
+#editItemsTable
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	max-width: 100%;
+	text-align:center;
+}
+
+#editItemsTable th, #editItemsTable tr, #editItemsTable td
+{
+	border: 1px solid black;
+}
+
+.editItemDeleteRow
+{
+    background: #ff0000;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* adjust the length of the bar */
+.form-groups {
+ padding-left: 20px;
+ padding-right: 20px;
+} 
+
+.btn-success {
+    margin-left: 20px;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}

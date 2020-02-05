@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Best B4</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+      <!-- Picture for tab -->
+      <link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/fav/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/fav/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/fav/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/fav/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/fav/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/fav/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="/fav/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/fav/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+      <link rel="manifest" href="/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="styles/style.css">
+      <!-- JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <!-- body -->
+   <body id="Ui">
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <a href="https://www.bestb4.ca">
+               <img class="img-responsive" src="images/best_b4_white.png" alt="navBar logo" id="navBar-logo">
+               </a>
+               <button type="button" class="navbar-toggle pull-right" data-toggle="collapse" data-target="#navBar">Menu
+               </button>
+               <div class="navbarItem pull-right" id="notification">
+                  <img class="dropdown-toggle notificationDark" src="images/notification.png" alt="notification" id="navBarNotification" data-toggle="dropdown">
+                  <ul class="dropdown-menu notificationDropdown">
+                     <li class="nav-item"><a class= "notificationDark" id="cookingAdvice" data-toggle="collapse" role="button">Daily Cooking Advice</a></li>
+                     <li class="nav-item"><a class= "notificationDark" id="ExpiryRemider" data-toggle="collapse" role="button">Near Expiry</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="navbar-collapse collapse navbarItem" id="navBar" tabindex="-1" aria-hidden="true">
+               <ul class="nav navbar-nav navbar-center">
+                  <li><a id="add_items" data-toggle="collapse" data-target=".navbar-collapse" role="button">Add items</a></li>
+                  <li><a id="edit_items" data-toggle="collapse" data-target=".navbar-collapse" role="button">Edit items</a></li>
+                  <li><a id="history_log" data-toggle="collapse" data-target=".navbar-collapse" role="button">History log</a></li>
+                  <li><a data-toggle="modal" data-target="#saveDataModal" role="button">Back Up Your List</a></li>
+                  <li><a data-toggle="modal" data-target="#loadDataModal" role="button">Load Your List</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Checklist-->
+      <div class="container pedding odd">
+         <h1>Your Shopping List</h1>
+         <div class="table-responsive">
+            <table class ="table table-striped table-bordered table-hover">
+               <thead>
+                  <tr class = "tableHeader title">
+                     <th></th>
+                     <th>State</th>
+                     <th>Name</th>
+                     <th>Category</th>
+                     <th>Expiry date</th>
+                     <th>Days</th>
+                     <th>Memo</th>
+                  </tr>
+               </thead>
+               <tbody class= "checkList">
+                  <tr class = "rowTemplate" hidden>
+                     <td class = "rowKey" hidden></td>
+                     <td class = "checklistFunction"><span class="glyphicon glyphicon-cutlery"></span><span class="glyphicon glyphicon-trash"></span></td>
+                     <td class = "state"></td>
+                     <td class = "name"></td>
+                     <td class = "category"></td>
+                     <td class = "expiry_date"></td>
+                     <td class = "days"></td>
+                     <td class = "memo"></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <!-- Modal -->
+      <!-- Notification -->
+      <!-- Cooking Advice-->
+      <div class="modal fade" id="cookingAdviceModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Daily Cooking Advice</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="container recipeAdvice" id="recipeAdvice">
+                     <div class = "recipeTemplate" hidden>
+                        <h2 class = "recipeLabel"></h2>
+                        <img class = "recipeImage">
+                        <div class = "recipeIngredient"></div>
+                        <a class = "recipeUrl">Link</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <form action="./php/twitterindex.php" method="post">
+                     <div class="form-group">
+                        <input type="hidden" class="form-control" id="recipeText" name="text" value="">
+                     </div>
+                     <button type="submit" class="btn btn-default" id="cookingAdviceTwitter">Share to your Twitter</button>
+                     <button type="button" class="btn btn-default" id="cookingAdviceRenew">Another Advice</button>
+                     <button type="button" class="btn btn-default" id="cookingAdviceClose" data-dismiss="modal">Close</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Expiry date remider-->
+      <div class="modal fade" id="expiryDateRemiderModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Expiry date remider</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="container remiderExpired">
+                     <h3>Expired</h3>
+                     <div class = "remiderRowTemplete" hidden>
+                        <div class = "remiderItem"></div>
+                        <div class = "remiderItem"></div>
+                     </div>
+                  </div>
+                  <div class="container remiderExpiredIn2">
+                     <h3>Expired in 2 days</h3>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" id="expiryDateRemiderClose" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Add Items -->
+      <div class="modal fade" id="addItemsModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Add Items</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="addItemContainer">
+                     <h5 class="addItemTitle">Old items</h5>
+                     <hr>
+                     <div class="addItemSection" id="oldItems">
+                        <div class="itemSelction itemSelctionTemplate" hidden>
+                           <p class="itemSelectionKey" hidden></p>
+                           <img class="itemSelectionCategory">
+                           <p class="itemSelectionName"></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="addItemContainer">
+                     <h5 class="addItemTitle">Frequent items</h5>
+                     <hr>
+                     <div class="addItemSection" id="frequentItems">
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" id="addOtherItems" data-dismiss="modal">Add</button>
+                  <button type="button" class="btn btn-default" id="addItemsClose" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Add Other Items -->
+      <div class="modal fade" id="otherItemsModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Other Items</h4>
+               </div>
+               <div class="modal-body" id="allOtherItems">
+                  <div class="otherItemGroup">
+                     <div class="form-group">
+                        <label class= "otherItemName" for="add_name">Name:</label>
+                        <input class= "otherItemNameInput form-control" type="text">
+                     </div>
+                     <div class="form-group">
+                        <label for="otherItemCategory">Category:</label>
+                        <select class="otherItemCategoryInput">
+                           <option value="Carbs" selected>Carbs</option>
+                           <option value="Dairy">Dairy</option>
+                           <option value="Fruits">Fruits</option>
+                           <option value="Proteins">Proteins</option>
+                           <option value="Sweets">Sweets</option>
+                           <option value="Veggies">Veggies</option>
+                        </select>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="otherItemGroup">
+                     <div class="form-group">
+                        <label class= "otherItemName" for="add_name">Name:</label>
+                        <input class= "otherItemNameInput form-control" type="text" >
+                     </div>
+                     <div class="form-group">
+                        <label for="otherItemCategory">Category:</label>
+                        <select class="otherItemCategoryInput">
+                           <option value="Carbs">Carbs</option>
+                           <option value="Dairy">Dairy</option>
+                           <option value="Fruits">Fruits</option>
+                           <option value="Proteins">Proteins</option>
+                           <option value="Sweets">Sweets</option>
+                           <option value="Veggies">Veggies</option>
+                        </select>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="otherItemGroup">
+                     <div class="form-group">
+                        <label class= "otherItemName" for="add_name">Name:</label>
+                        <input class= "otherItemNameInput form-control" type="text" >
+                     </div>
+                     <div class="form-group">
+                        <label for="otherItemCategory">Category:</label>
+                        <select class="otherItemCategoryInput">
+                           <option value="Carbs">Carbs</option>
+                           <option value="Dairy">Dairy</option>
+                           <option value="Fruits">Fruits</option>
+                           <option value="Proteins">Proteins</option>
+                           <option value="Sweets">Sweets</option>
+                           <option value="Veggies">Veggies</option>
+                        </select>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="otherItemGroup">
+                     <div class="form-group">
+                        <label class= "otherItemName" for="add_name">Name:</label>
+                        <input class= "otherItemNameInput form-control" type="text">
+                     </div>
+                     <div class="form-group">
+                        <label for="otherItemCategory">Category:</label>
+                        <select class="otherItemCategoryInput">
+                           <option value="Carbs">Carbs</option>
+                           <option value="Dairy">Dairy</option>
+                           <option value="Fruits">Fruits</option>
+                           <option value="Proteins">Proteins</option>
+                           <option value="Sweets">Sweets</option>
+                           <option value="Veggies">Veggies</option>
+                        </select>
+                     </div>
+                  </div>
+                  <hr>
+                  <div class="otherItemGroup">
+                     <div class="form-group">
+                        <label class= "otherItemName" for="add_name">Name:</label>
+                        <input class= "otherItemNameInput form-control" type="text" >
+                     </div>
+                     <div class="form-group">
+                        <label for="otherItemCategory">Category:</label>
+                        <select class="otherItemCategoryInput">
+                           <option value="Carbs">Carbs</option>
+                           <option value="Dairy">Dairy</option>
+                           <option value="Fruits">Fruits</option>
+                           <option value="Proteins">Proteins</option>
+                           <option value="Sweets">Sweets</option>
+                           <option value="Veggies">Veggies</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" id="enterItemDetails" data-dismiss="modal">Add</button>
+                  <button type="button" class="btn btn-default" id="addOtherItemsClose" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Enter Item Details -->
+      <div class="modal fade" id="enterItemDetailsModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Item Details</h4>
+               </div>
+               <div class="modal-body">
+                  <table class ="table table-striped table-bordered table-hover" id="enterItemDetailsTable">
+                     <tr class = "enterItemDetailsTableHeader">
+                        <th>Name</th>
+                        <th>Expiry date</th>
+                        <th>Memo</th>
+                     </tr>
+                     <tr class = "enterItemDetailsTableRow enterItemDetailsTableRowTemplate" hidden>
+                        <td class = "enterItemDetailsName"></td>
+                        <td class = "enterItemDetailsCategory" hidden></td>
+                        <td class = "enterItemDetailsexpiry_date">
+                           <span class="glyphicon glyphicon-minus"></span>
+                           <input class="itemDetailDaysInput" type="number" required>
+                           <span class="glyphicon glyphicon-plus"></span>
+                           <br />
+                           <input class="itemDetailExpiryDateInput" type="date" required>
+                        </td>
+                        <td class = "enterItemDetailsMemo">
+                           <input class= "enterItemDetailsMemoInput form-control" type="text">
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" id="addToChecklist" data-dismiss="modal">Add</button>
+                  <button type="button" class="btn btn-default" id="enterItemDetailsClose" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Upload user's data -->
+      <div class="modal fade" id="saveDataModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h3 class="modal-title" id="loginModal">Please login with Best B4 to save your shopping list</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <div class="main-login main-center">
+                     <form class="form-horizontal" method="POST">
+                        <div class="form-groups">
+                           <label for="email" class="cols-sm-2 control-label">Email</label>
+                           <div class="cols-sm-10">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                 <input type="text" class="form-control" name="email" id="emailSave" placeholder="Enter your Email" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-groups">
+                           <label for="password" class="cols-sm-2 control-label">Password</label>
+                           <div class="cols-sm-10">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                 <input type="password" class="form-control" name="password" id="passwordSave"  placeholder="Enter your Password"/>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                     <br>
+                     <button name="submit" type="submit" id="saveData" class="btn btn-success">Login</button> 
+                     <a href="/php/register.php" role="button" class="btn btn-warning">Sign Up</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Load user's data -->
+      <div class="modal fade" id="loadDataModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h3 class="modal-title" id="loginModal">Please login with Best B4 to load your shopping list</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <div class="main-login main-center">
+                     <form class="form-horizontal" method="POST">
+                        <div class="form-groups">
+                           <label for="email" class="cols-sm-2 control-label">Email</label>
+                           <div class="cols-sm-10">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                 <input type="text" class="form-control" name="email" id="emailLoad" placeholder="Enter your Email" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-groups">
+                           <label for="password" class="cols-sm-2 control-label">Password</label>
+                           <div class="cols-sm-10">
+                              <div class="input-group">
+                                 <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                 <input type="password" class="form-control" name="password" id="passwordLoad"  placeholder="Enter your Password"/>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                     <br>
+                     <button name="submit" type="submit" id="loadData" class="btn btn-success">Login</button> 
+                     <a href="/php/register.php" role="button" class="btn btn-warning">Sign Up</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Edit shopping list-->
+      <div class="modal fade" id="editItemsModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">Edit Items</h4>
+               </div>
+               <div class="modal-body">
+                  <table class ="table table-striped table-bordered">
+                     <thead>
+                        <tr class = "editItemsTableHeader">
+                           <th></th>
+                           <th>Name</th>
+                           <th>Category</th>
+                           <th>Expiry date</th>
+                           <th>Memo</th>
+                        </tr>
+                     </thead>
+                     <tbody id="editItemsTable">
+                        <tr class = "editItemsTableRow editItemsTableRowTemplate" hidden>
+                           <td class = "editItemsRowKey" hidden></td>
+                           <td class = "editItemsFunctions">
+                              <span class="glyphicon glyphicon-remove"></span>
+                           </td>
+                           <td class = "editItemsName">
+                              <input class= "editItemsNameInput form-control" type="text" required>
+                           </td>
+                           <td class = "editItemsCategory">
+                              <select class="editItemsCategoryInput">
+                                 <option value="Carbs">Carbs</option>
+                                 <option value="Dairy">Dairy</option>
+                                 <option value="Fruits">Fruits</option>
+                                 <option value="Proteins">Proteins</option>
+                                 <option value="Sweets">Sweets</option>
+                                 <option value="Veggies">Veggies</option>
+                              </select>
+                           </td>
+                           <td class = "editItemsExpiry_date">
+                              <span class="glyphicon glyphicon-minus"></span>
+                              <input class="editItemsDaysInput" type="number" required>
+                              <span class="glyphicon glyphicon-plus"></span>
+                              <br />
+                              <input class="editItemsExpiryDateInput" type="date" required>
+                           </td>
+                           <td class = "editItemsMemo">
+                              <input class= "editItemsMemoInput form-control" type="text">
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" id="editItemsSave" data-dismiss="modal">Save</button>
+                  <button type="button" class="btn btn-default" id="editItemsClose" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- History Log-->
+      <div class="modal fade" id="historyLogModal" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h4 class="modal-title">History Log</h4>
+               </div>
+               <div class="modal-body">
+                  <table class ="table table-striped table-bordered table-hover">
+                     <thead>
+                        <tr class = "tableHeader title">
+                           <th></th>
+                           <th>State</th>
+                           <th>Name</th>
+                           <th>Category</th>
+                           <th>Expiry date</th>
+                           <th>Days</th>
+                           <th>Memo</th>
+                        </tr>
+                     </thead>
+                     <tbody class= "historyLogTable">
+                        <tr class = "historyRowTemplate" hidden>
+                           <td class = "rowKey" hidden></td>
+                           <td class = "historyFunction"><span class="glyphicon glyphicon-repeat"></span></td>
+                           <td class = "state"></td>
+                           <td class = "name"></td>
+                           <td class = "category"></td>
+                           <td class = "expiry_date"></td>
+                           <td class = "days"></td>
+                           <td class = "memo"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-default" id="historyLogClose" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/app.js" async></script>
+   </body>
+</html>
